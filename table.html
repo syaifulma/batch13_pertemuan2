@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+</head>
+<body>
+
+    <h1>membuat table</h1>
+
+    <table border="1" cellspacing="2" cellpading="4">
+        <!-- Baris pertama -->
+        <tr>
+            <td>No.</td>
+            <td>Nama</td>
+            <td>Alamat</td>
+        </tr>
+        
+        <!-- Baris kedua -->
+        <tr>
+            <td>1.</td>
+            <td>CR7</td>
+            <td>Portugal</td>
+        </tr>
+
+        <!-- Baris ketiga -->
+        <tr>
+            <td>2.</td>
+            <td>Messi</td>
+            <td>Argentina</td>
+        </tr>
+    </table>
+    
+
+<!-- Gabung bari (kebawah) => colspan -->
+
+<table border="1" cellspacing="2" cellpading="4">
+    <!-- Baris pertama -->
+    <tr>
+        <th rowspan="2">No.</th>
+        <th colspan="2">Nama</th>
+        <th rowspan="2">Alamat</th>
+    </tr>
+    
+    <tr>
+        <th>Depan</th>
+        <th>Belakang</th>
+
+    </tr>
+
+
+    <!-- Baris kedua -->
+    <tr>
+        <td>1.</td>
+        <td>CR7</td>
+        <td>ronaldo</td>
+        <td>Portugal</td>
+    </tr>
+
+    <!-- Baris ketiga -->
+    <tr>
+        <td>2.</td>
+        <td>Messi</td>
+        <td>ah</td>
+        <td>Argentina</td>
+    </tr>
+</table>
+
+
+
+</body>
+</html>
